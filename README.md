@@ -62,4 +62,6 @@ Elevador E003 iniciando subida
 Elevador E003: Estado alterado de 'Parado' para 'Subindo'
 Elevador E003 subindo do andar 1 para 2
 Música interrompida no elevador E003 - operação normalizada
-Elevador E003: Estado alterado de 'Subindo' para 'Parado'
+Elevador E003: Estado alterado de 'Subindo' para 'Parado'caminho/para/imagem.jpg
+
+![Texto alternativo](uml.png "Diagrama UML")

@@ -1,6 +1,7 @@
 from states.stopped_state import StoppedState
+from core.elevator_component import ElevatorComponent
 
-class Elevator:   
+class Elevator(ElevatorComponent):   
     def __init__(self, elevator_id):
         self.id = elevator_id
         self.current_floor = 1

@@ -65,3 +65,16 @@ Música interrompida no elevador E003 - operação normalizada
 Elevador E003: Estado alterado de 'Subindo' para 'Parado'caminho/para/imagem.jpg
 
 ![Texto alternativo](uml.png "Diagrama UML")
+
+Rodando com o Decorator: Resultado
+
+Elevador E004 criado no andar 1
+Elevador E004 recebeu solicitação para andar 7
+Elevador E004 iniciando subida
+Elevador E004: Estado alterado de 'Parado' para 'Subindo'
+Elevador E004 subindo do andar 1 para 7
+Elevador E004: Estado alterado de 'Subindo' para 'Parado'
+[Monitor] Mostrando no display: Andar 7
+[Voz] Anunciando: Chegando ao andar 7
+[Decoração] Elevador decorado para: Natal
+{'id': 'E004', 'current_floor': 7, 'state': 'Parado', 'decoration': 'Natal'}
